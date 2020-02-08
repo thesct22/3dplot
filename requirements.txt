@@ -4,3 +4,6 @@ pandas
 scipy
 matplotlib
 pymc3
+nodejs
+node.js
+vis.js
