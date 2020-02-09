@@ -1,2 +1,2 @@
-web: bokeh serve --log-level=debug --num-procs=0 --port=$PORT --show --host=my_app.herokuapp.com --host=* --address=0.0.0.0 --use-xheaders sample.py
+web: bokeh serve --port=$PORT --num-procs=0 --address=0.0.0.0 --allow-websocket-origin=air-conditioning1.herokuapp.com --use-xheaders --show sample.py
 conda: install nodejs
