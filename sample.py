@@ -198,18 +198,6 @@ class Surface3d(LayoutDOM):
     z = String
 
 
-#x = np.arange(0, 300, 10)
-#y = np.arange(0, 300, 10)
-#xx, yy = np.meshgrid(x, y)
-#xx = xx.ravel()
-#yy = yy.ravel()
-#value = np.sin(xx / 50) * np.cos(yy / 50) * 50 + 50
-#
-#source = ColumnDataSource(data=dict(x=xx, y=yy, z=value))
-#
-#surface = Surface3d(, data_source=source, width=600, height=600)
-
-
 X = [1,1,2,2,3,3,4,4]
 Y = [1,2,1,2,1,2,1,2]
 Z = [23,24,23,23,25,23,23,23]
