@@ -210,4 +210,4 @@ def update(t):
 
 curdoc().title = "Hello, world!"
 curdoc().add_root(surface)
-curdoc().add_periodic_callback(update, 1000)
+curdoc().add_periodic_callback(update, 2000)
