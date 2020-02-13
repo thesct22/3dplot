@@ -1,7 +1,7 @@
 from __future__ import division
 
 import numpy as np
-
+from firebase import firebase
 from bokeh.driving import count
 from bokeh.core.properties import Instance, String
 from bokeh.models import ColumnDataSource, LayoutDOM
@@ -163,7 +163,7 @@ export class Surface3d extends LayoutDOM {
   }
 }
 """
-
+firebase= firebase.FirebaseApplication('https://air-conditioning-12b11.firebaseio.com/')
 
 class Surface3d(LayoutDOM):
 
@@ -196,7 +196,8 @@ surface = Surface3d(x="x", y="y", z="z", data_source=source, width=600, height=6
 def compute(t):
     X = [1,1,2,2,3,3,4,4]
     Y = [1,2,1,2,1,2,1,2]
-    Z= np.random.randint(23,26,8)
+    result=firebase.get('temp',None)
+    Z=list(map(int,result.values()))  
     xx=np.linspace(np.min(X),np.max(X),100)
     yy=np.linspace(np.min(Y),np.max(Y),100)
     plotx,ploty, = np.meshgrid(xx,yy)
