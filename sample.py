@@ -9,7 +9,6 @@ from bokeh.io import show
 from bokeh.util.compiler import TypeScript
 import scipy.interpolate as interp
 from bokeh.io import curdoc
-from requests import get
 
 
 TS_CODE = """
@@ -183,8 +182,6 @@ class Surface3d(LayoutDOM):
 X = [1,1,2,2,3,3,4,4]
 Y = [1,2,1,2,1,2,1,2]
 Z = [23,24,23,23,25,23,23,23]
-ip = get('https://api.ipify.org').text
-result1 = firebase.put('https://air-conditioning-12b11.firebaseio.com/','ip',ip); 
 xx=np.linspace(np.min(X),np.max(X),100)
 yy=np.linspace(np.min(Y),np.max(Y),100)
 plotx,ploty, = np.meshgrid(xx,yy)
