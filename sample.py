@@ -10,6 +10,7 @@ from bokeh.util.compiler import TypeScript
 import scipy.interpolate as interp
 from bokeh.io import curdoc
 
+
 TS_CODE = """
 // This custom model wraps one part of the third-party vis.js library:
 //
