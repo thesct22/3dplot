@@ -1,0 +1,225 @@
+2020-03-19 19:34:39,546 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-19 19:34:39,547 User authentication hooks NOT provided (default user enabled)
+2020-03-19 19:34:39,558 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-19 19:34:39,559 Starting Bokeh server with process id: 1797
+
+Interrupted, shutting down
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/bin/bokeh", line 11, in <module>
+    load_entry_point('bokeh==1.4.0', 'console_scripts', 'bokeh')()
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/__main__.py", line 64, in main
+    _main(sys.argv)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/bootstrap.py", line 115, in main
+    ret = args.invoke(args)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/subcommands/serve.py", line 820, in invoke
+    server = Server(applications, **server_kwargs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/server/server.py", line 406, in __init__
+    http_server.start(opts.num_procs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/tcpserver.py", line 241, in start
+    process.fork_processes(num_processes, max_restarts)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/process.py", line 148, in fork_processes
+    pid, status = os.wait()
+KeyboardInterrupt
+2020-03-19 20:43:37,114 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-19 20:43:37,115 User authentication hooks NOT provided (default user enabled)
+2020-03-19 20:43:37,124 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-19 20:43:37,125 Starting Bokeh server with process id: 2697
+2020-03-19 20:44:36,353 404 GET /favicon.ico (42.107.195.175) 0.75ms
+2020-03-19 20:44:36,754 WebSocket connection opened
+2020-03-19 20:44:36,754 ServerConnection created
+2020-03-19 20:46:33,115 WebSocket connection closed: code=None, reason=None
+2020-03-19 20:46:33,115 Failed sending message as connection was closed
+2020-03-19 20:46:53,468 404 GET /favicon.ico (42.107.195.175) 0.68ms
+2020-03-19 20:46:53,728 WebSocket connection opened
+2020-03-19 20:46:53,728 ServerConnection created
+2020-03-19 20:48:39,997 WebSocket connection closed: code=1001, reason=None
+2020-03-19 20:48:39,997 Failed sending message as connection was closed
+2020-03-19 21:16:19,299 404 GET /favicon.ico (42.107.195.175) 0.67ms
+2020-03-19 21:16:19,575 WebSocket connection opened
+2020-03-19 21:16:19,576 ServerConnection created
+2020-03-19 21:17:08,405 404 GET /favicon.ico (42.107.195.175) 0.81ms
+2020-03-19 21:17:08,678 WebSocket connection opened
+2020-03-19 21:17:08,679 ServerConnection created
+2020-03-19 21:22:23,353 WebSocket connection closed: code=None, reason=None
+2020-03-19 21:22:23,354 Failed sending message as connection was closed
+2020-03-19 21:22:23,382 WebSocket connection closed: code=None, reason=None
+2020-03-19 21:22:23,383 Failed sending message as connection was closed
+2020-03-19 21:22:37,005 404 GET /favicon.ico (42.107.195.175) 0.67ms
+2020-03-19 21:22:37,252 WebSocket connection opened
+2020-03-19 21:22:37,253 ServerConnection created
+2020-03-19 21:23:55,557 WebSocket connection closed: code=None, reason=None
+2020-03-19 21:27:28,588 404 GET /favicon.ico (42.107.195.175) 0.59ms
+2020-03-19 21:27:28,870 WebSocket connection opened
+2020-03-19 21:27:28,870 ServerConnection created
+2020-03-19 21:52:17,735 WebSocket connection closed: code=None, reason=None
+2020-03-19 21:52:37,169 404 GET /favicon.ico (42.107.195.175) 0.98ms
+2020-03-19 21:52:37,503 WebSocket connection opened
+2020-03-19 21:52:37,503 ServerConnection created
+2020-03-19 21:53:43,622 WebSocket connection closed: code=None, reason=None
+2020-03-19 21:53:43,623 Failed sending message as connection was closed
+2020-03-19 21:53:58,492 404 GET /favicon.ico (42.107.195.175) 0.67ms
+2020-03-19 21:53:58,771 WebSocket connection opened
+2020-03-19 21:53:58,772 ServerConnection created
+2020-03-19 21:55:11,085 WebSocket connection closed: code=None, reason=None
+2020-03-19 21:55:11,086 Failed sending message as connection was closed
+2020-03-19 21:55:23,199 404 GET /favicon.ico (42.107.195.175) 0.71ms
+2020-03-19 21:55:23,573 WebSocket connection opened
+2020-03-19 21:55:23,574 ServerConnection created
+2020-03-19 21:56:24,013 WebSocket connection closed: code=None, reason=None
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/bin/bokeh", line 11, in <module>
+    load_entry_point('bokeh==1.4.0', 'console_scripts', 'bokeh')()
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/__main__.py", line 64, in main
+    _main(sys.argv)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/bootstrap.py", line 115, in main
+    ret = args.invoke(args)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/subcommands/serve.py", line 820, in invoke
+    server = Server(applications, **server_kwargs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/server/server.py", line 406, in __init__
+    http_server.start(opts.num_procs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/tcpserver.py", line 241, in start
+    process.fork_processes(num_processes, max_restarts)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/process.py", line 148, in fork_processes
+    pid, status = os.wait()
+KeyboardInterrupt
+
+Interrupted, shutting down
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/firebase/__init__.py", line 13, in close_process_pool
+    process_pool.close()
+NameError: name 'process_pool' is not defined
+2020-03-21 06:15:13,347 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 06:15:13,366 User authentication hooks NOT provided (default user enabled)
+2020-03-21 06:15:13,377 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-21 06:15:13,377 Starting Bokeh server with process id: 1575
+Compilation failed:
+
+[96msample.py:Surface3d.ts[0m:[93m38[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m38[0m   cameraPosition: {
+[7m  [0m [91m  ~~~~~~~~~~~~~~[0m
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/firebase/__init__.py", line 13, in close_process_pool
+    process_pool.close()
+NameError: name 'process_pool' is not defined
+2020-03-21 06:19:12,570 child 0 (pid 1575) exited with status 1, restarting
+2020-03-21 06:19:12,576 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-21 06:19:12,577 Starting Bokeh server with process id: 1638
+
+Interrupted, shutting down
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/bin/bokeh", line 11, in <module>
+    load_entry_point('bokeh==1.4.0', 'console_scripts', 'bokeh')()
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/__main__.py", line 64, in main
+    _main(sys.argv)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/bootstrap.py", line 115, in main
+    ret = args.invoke(args)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/subcommands/serve.py", line 820, in invoke
+    server = Server(applications, **server_kwargs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/server/server.py", line 406, in __init__
+    http_server.start(opts.num_procs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/tcpserver.py", line 241, in start
+    process.fork_processes(num_processes, max_restarts)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/process.py", line 148, in fork_processes
+    pid, status = os.wait()
+KeyboardInterrupt
+2020-03-21 06:21:53,578 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 06:21:53,579 User authentication hooks NOT provided (default user enabled)
+2020-03-21 06:21:53,587 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-21 06:21:53,587 Starting Bokeh server with process id: 1709
+2020-03-21 06:22:08,736 404 GET /favicon.ico (42.107.196.22) 0.53ms
+2020-03-21 06:22:09,032 WebSocket connection opened
+2020-03-21 06:22:09,033 ServerConnection created
+2020-03-21 06:22:39,213 404 GET /favicon.ico (42.107.196.22) 0.52ms
+2020-03-21 06:22:39,621 WebSocket connection opened
+2020-03-21 06:22:39,622 ServerConnection created
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/bin/bokeh", line 11, in <module>
+    load_entry_point('bokeh==1.4.0', 'console_scripts', 'bokeh')()
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/__main__.py", line 64, in main
+    _main(sys.argv)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/bootstrap.py", line 115, in main
+    ret = args.invoke(args)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/subcommands/serve.py", line 820, in invoke
+    server = Server(applications, **server_kwargs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/server/server.py", line 406, in __init__
+    http_server.start(opts.num_procs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/tcpserver.py", line 241, in start
+    process.fork_processes(num_processes, max_restarts)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/process.py", line 148, in fork_processes
+    pid, status = os.wait()
+KeyboardInterrupt
+
+Interrupted, shutting down
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/firebase/__init__.py", line 13, in close_process_pool
+    process_pool.close()
+NameError: name 'process_pool' is not defined
+2020-03-21 06:27:08,611 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 06:27:08,612 User authentication hooks NOT provided (default user enabled)
+2020-03-21 06:27:08,620 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-21 06:27:08,620 Starting Bokeh server with process id: 8000
+2020-03-21 06:27:25,126 404 GET /favicon.ico (42.107.192.127) 0.62ms
+2020-03-21 06:27:25,393 WebSocket connection opened
+2020-03-21 06:27:25,393 ServerConnection created
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/bin/bokeh", line 11, in <module>
+    load_entry_point('bokeh==1.4.0', 'console_scripts', 'bokeh')()
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/__main__.py", line 64, in main
+    _main(sys.argv)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/bootstrap.py", line 115, in main
+    ret = args.invoke(args)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/command/subcommands/serve.py", line 820, in invoke
+    server = Server(applications, **server_kwargs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/bokeh/server/server.py", line 406, in __init__
+    http_server.start(opts.num_procs)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/tcpserver.py", line 241, in start
+    process.fork_processes(num_processes, max_restarts)
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/tornado/process.py", line 148, in fork_processes
+    pid, status = os.wait()
+KeyboardInterrupt
+
+Interrupted, shutting down
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/firebase/__init__.py", line 13, in close_process_pool
+    process_pool.close()
+NameError: name 'process_pool' is not defined
+2020-03-21 06:38:13,510 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 06:38:13,511 User authentication hooks NOT provided (default user enabled)
+2020-03-21 06:38:13,519 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-21 06:38:13,519 Starting Bokeh server with process id: 8182
+2020-03-21 06:38:31,454 WebSocket connection opened
+2020-03-21 06:38:31,454 ServerConnection created
+2020-03-21 06:38:52,417 404 GET /favicon.ico (42.107.192.127) 0.67ms
+2020-03-21 06:38:52,688 WebSocket connection opened
+2020-03-21 06:38:52,689 ServerConnection created
+2020-03-21 07:24:52,930 error on read: [Errno 101] Network is unreachable
+2020-03-21 07:24:52,930 WebSocket connection closed: code=None, reason=None
+2020-03-21 07:24:52,931 Failed sending message as connection was closed
+2020-03-21 07:25:31,841 WebSocket connection closed: code=None, reason=None
+2020-03-21 07:25:31,841 Failed sending message as connection was closed
+2020-03-21 07:45:30,946 WebSocket connection opened
+2020-03-21 07:45:30,946 ServerConnection created
+2020-03-21 09:26:02,858 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 09:26:02,859 Cannot start Bokeh server, port 5006 is already in use
+2020-03-21 09:26:08,719 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 09:26:08,720 Cannot start Bokeh server, port 5006 is already in use
+2020-03-21 09:26:15,178 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-21 09:26:15,179 Cannot start Bokeh server, port 5006 is already in use
+2020-03-21 09:43:46,512 WebSocket connection closed: code=None, reason=None
+2020-03-21 09:43:46,512 Failed sending message as connection was closed
+Received signal 15, shutting down
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/sharathct22/.local/lib/python3.7/site-packages/firebase/__init__.py", line 13, in close_process_pool
+    process_pool.close()
+NameError: name 'process_pool' is not defined
+2020-03-29 15:52:06,544 Starting Bokeh server version 1.4.0 (running on Tornado 6.0.3)
+2020-03-29 15:52:06,558 User authentication hooks NOT provided (default user enabled)
+2020-03-29 15:52:06,568 Bokeh app running at: http://0.0.0.0:5006/sample
+2020-03-29 15:52:06,569 Starting Bokeh server with process id: 1636
+Received signal 15, shutting down

@@ -5,4 +5,5 @@ scipy
 matplotlib
 pymc3
 nodejs
+requests==1.1.0
 python-firebase

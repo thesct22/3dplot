@@ -197,13 +197,10 @@ surface = Surface3d(x="x", y="y", z="z", data_source=source, width=600, height=6
 
 def compute(t):
     resultx=firebase.get('XCOORD',None)
-    X=list(map(int,resultx.values()))
-    resulty=firebase.get('YCOORD',None)
-    Y=list(map(int,resulty.values()))
-    #X = [1,1,2,2,3,3,4,4]
-    #Y = [1,2,1,2,1,2,1,2]
-    result=firebase.get('temp',None)
-    Z=list(map(int,result.values()))
+
+    X = [1,1,2,2,3,3,4,4]
+    Y = [1,2,1,2,1,2,1,2]
+sudo pip install python-firebase    Z=list(map(int,result.values()))  
     xx=np.linspace(np.min(X),np.max(X),100)
     yy=np.linspace(np.min(Y),np.max(Y),100)
     plotx,ploty, = np.meshgrid(xx,yy)
